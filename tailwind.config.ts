@@ -18,6 +18,16 @@ export default {
 			}
 		},
 		extend: {
+            colors: {
+                weather: {
+                    'sunny': '#4da6ff',
+                    'rainy': '#3b82f6',
+                    'cloudy': '#64748b',
+                    'stormy': '#334155',
+                    'snowy': '#e2e8f0',
+                    'foggy': '#cbd5e1',
+                },
+            },
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
